@@ -41,7 +41,7 @@ const button = document.getElementById("findButton");
 
 function criandoTagDeRetorno(arr){
     let tagH2 = document.createElement("h2")
-    tagH2.innerText = `Anagramas: ${arr.toString()}`
+    tagH2.innerText = `anagramas: ${arr.toString()}`
     let tagSection = document.getElementById("retorno")
     tagSection.appendChild(tagH2)
 }

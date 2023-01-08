@@ -4,6 +4,8 @@
 }
 
 body {
+    background-color: #2D073E;
+    color: aqua;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -20,11 +22,29 @@ body {
 
 .entrada {
     margin-bottom: 20px;
+    margin-right: 3rem;  
 }
 
+h1{
+margin-right: 3rem;
+}
+
+input{
+    background-color: #271F2B;
+    border-color:aqua;
+    color: aqua;
+    border-radius: 2rem;
+}
 .entrada input,
 button {
+    margin-inline: 3rem;
     padding: 10px;
+    background-color: #271F2B;
+    border-radius: 50%;
+    cursor: pointer;
+    border-color:aqua;
+    color: aqua;
+
 }
 
 .result span:first-child {
